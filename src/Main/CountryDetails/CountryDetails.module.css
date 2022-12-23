@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+.main-container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5vw;
+  height: 82.5vh;
+}
+
+.country-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5vw;
+}
+
+.details-container {
+  display: flex;
+}
+
+.back-button {
+  cursor: pointer;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.1vw;
+  border-radius: 0.4vw;
+  font-weight: 600;
+  width: 8vw;
+  height: 4vh;
+  outline: 0;
+}
+
+.country-flag {
+  width: 35vw;
+  height: 40vh;
+  margin-right: 5vw;
+}
+
+.country-name {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.6vw;
+  font-weight: 800;
+}
+
+.details-container-left-side {
+  margin-right: 10vw;
+}
+
+.border-countries-container {
+  display: flex;
+  align-items: center;
+  margin-top: 1vw;
+}
+
+.border-countries-div {
+  display: flex;
+  text-align: center;
+}
+
+.border-countries-text,
+.border-countries {
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+.border-countries-text {
+  font-weight: 600;
+  margin-right: 1vw;
+  font-size: 1.1vw;
+}
+
+.border-countries {
+  font-weight: 300;
+  font-size: 0.9vw;
+  margin-left: 1vw;
+  padding: 0.2vw 1vw;
+}

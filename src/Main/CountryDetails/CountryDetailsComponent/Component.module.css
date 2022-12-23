@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+.component-container {
+  display: flex;
+}
+
+.component-name,
+.component-value {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 1.1vw;
+  margin: 0.4em 0;
+}
+
+.component-name {
+  font-weight: 600;
+  margin-right: 0.4vw;
+}
+
+.component-value {
+  font-weight: 300;
+}

@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;600;800&display=swap');
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
+.main-container {
+  padding-top: 5vw;
+}
+
+.Country-filter-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.search-container {
+  display: flex;
+  align-items: center;
+}
+
+.filter-container {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid hsl(0, 0%, 82%);
+  padding: 0.5vw 1.5vw;
+  align-items: center;
+  width: 8vw;
+  height: 5vh;
+  border-radius: 0.5vw;
+}
+
+.search-icon {
+  width: 1vw;
+  height: 2vh;
+  position: absolute;
+  left: 7vw;
+}
+
+.search-input {
+  font-family: 'Nunito Sans', sans-serif;
+  color: hsl(207, 26%, 17%);
+  font-size: 1vw;
+  font-weight: 600;
+  outline: 0;
+  width: 25vw;
+  height: 5vh;
+  padding-left: 3.5vw;
+  border: 1px solid hsl(0, 0%, 82%);
+  border-radius: 0.5vw;
+}
+
+.search-input::placeholder {
+  font-size: 1vw;
+}
+
+.filter-text {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 0.8vw;
+  font-weight: 600;
+  margin: 0;
+  margin-right: 0.5vw;
+}
+
+.filter-arrow-icon {
+  width: 0.8vw;
+  height: 0.8vh;
+}
+
+.region-list-container {
+  position: absolute;
+  flex-direction: column;
+  z-index: 1;
+  margin: 0;
+  margin-top: 0.3vw;
+  right: 5vw;
+  border-radius: 0.5vw;
+  width: 8vw;
+  height: 15vh;
+  padding: 0.5vw 1.5vw;
+}
+
+.countries-container {
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 3vw;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  align-items: center;
+  column-gap: 5.5vw;
+  row-gap: 5vw;
+}
