@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/rest-countries-api/static/css/main.c589ad00.css",
-    "main.js": "/rest-countries-api/static/js/main.4a48318d.js",
+    "main.js": "/rest-countries-api/static/js/main.a206db6e.js",
     "static/media/moon-light.png": "/rest-countries-api/static/media/moon-light.61e00084d41c80b7d1de.png",
     "static/media/moon-dark.png": "/rest-countries-api/static/media/moon-dark.cfa37b178f3890f6d652.png",
     "static/media/search.svg": "/rest-countries-api/static/media/search.bc4e250eadd6288c295de10d1ce9e9a3.svg",
@@ -9,10 +9,10 @@
     "static/media/icon-arrow-down.svg": "/rest-countries-api/static/media/icon-arrow-down.bebf05132571af33611ede9cdfdbed0f.svg",
     "static/media/icon-arrow-up.svg": "/rest-countries-api/static/media/icon-arrow-up.01861a1152dfab5f1070228d306352f4.svg",
     "main.c589ad00.css.map": "/rest-countries-api/static/css/main.c589ad00.css.map",
-    "main.4a48318d.js.map": "/rest-countries-api/static/js/main.4a48318d.js.map"
+    "main.a206db6e.js.map": "/rest-countries-api/static/js/main.a206db6e.js.map"
   },
   "entrypoints": [
     "static/css/main.c589ad00.css",
-    "static/js/main.4a48318d.js"
+    "static/js/main.a206db6e.js"
   ]
 }
